@@ -73,6 +73,68 @@ Using these groups helps avoid unnecessary recipe duplication and makes crafting
 
 The library is designed to make it easier for mod developers to support alternative Terraria items without having to register and maintain the same groups themselves.
 
+## Usage Examples
+
+Recipe Groups can be used in crafting recipes through Terraria's
+`AddRecipeGroup()` method.
+
+### Using a Recipe Group
+
+For example, to allow any registered table to be used as a crafting
+ingredient:
+
+``` cs
+public override void AddRecipes()
+{
+    CreateRecipe()
+        .AddRecipeGroup("RecipeGroups:Tables")
+        .Register();
+}
+```
+
+### Using Multiple Recipe Groups
+
+You can also use multiple recipe groups in a single recipe:
+
+``` cs
+public override void AddRecipes()
+{
+    CreateRecipe()
+        .AddRecipeGroup("RecipeGroups:IronAnvils")
+        .AddRecipeGroup("RecipeGroups:Tables")
+        .Register();
+}
+```
+
+### Specifying Ingredient Amounts
+
+You can specify how many items from a recipe group are required:
+
+``` cs
+public override void AddRecipes()
+{
+    CreateRecipe()
+        .AddRecipeGroup("RecipeGroups:CopperBars", 5)
+        .Register();
+}
+```
+
+### Recipe Group Keys
+
+Each recipe group uses a unique key in the following format:
+
+`RecipeGroups:GroupName`
+
+For example:
+
+-   `RecipeGroups:Tables`
+-   `RecipeGroups:Chairs`
+-   `RecipeGroups:IronAnvils`
+-   `RecipeGroups:CopperOres`
+-   `RecipeGroups:CopperBars`
+
+These keys can be passed directly to `AddRecipeGroup()`.
+
 ## Localization
 
 Recipe Groups supports seven languages:
