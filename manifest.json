@@ -1,0 +1,18 @@
+{
+  "uid": "1d2c8542-bdb6-410a-ba00-d04786387bb3",
+  "id": "RecipeGroups",
+  "name": "Recipe Groups",
+  "version": "1.0.0",
+  "author": "Rauf",
+  "category": "Lib",
+  "type": "mod",
+  "summary": "A library that provides recipe groups for Terraria.",
+  "license": "MIT",
+  "updated": "2026-11-19",
+  "blVersion": 3,
+  "gameVersion": [
+    301720,
+    301720
+  ],
+  "links": [{ "title": "GitHub", "url": "https://github.com/Rauf9510/RecipeGroups/tree/main" }]
+}
