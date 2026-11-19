@@ -1,0 +1,26 @@
+Mods: {
+  RecipeGroups: {
+    GroupNames: {
+      IronAnvils: "Любое: Железная наковальня"
+      MythrilAnvils: "Любое: Мифриловая наковальня"
+      AdamantiteForges: "Любое: Адамантитовая кузня"
+      Tables: "Любое: Стол"
+      Chairs: "Любое: Стул"
+      Workbenches: "Любое: Верстак"
+      Sinks: "Любое: Раковина"
+      CookingPots: "Любое: Котел"
+      Tombstones: "Любое: Надгробие"
+      EvilAltars: "Любое: Алтарь демонов"
+      CopperOres: "Любое: Медная руда"
+      IronOres: "Любое: Железная руда"
+      SilverOres: "Любое: Серебряная руда"
+      GoldOres: "Любое: Золотая руда"
+      EvilOres: "Любое: Демоническая руда"
+      CobaltOres: "Любое: Кобальтовая руда"
+      MythrilOres: "Любое: Мифриловая руда"
+      AdamantiteOres: "Любое: Адамантитовая руда"
+      CopperBars: "Любое: Медный слиток"
+      EvilBars: "Любое: Демонический слиток"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+Mods: {
+  RecipeGroups: {
+    GroupNames: {
+      IronAnvils: Tout Enclume en fer
+      MythrilAnvils: Tout Enclume en mithril
+      AdamantiteForges: Tout Forge en adamantite
+      Tables: Tout Table
+      Chairs: Tout Chaise
+      Workbenches: Tout Établi
+      Sinks: Tout Évier
+      CookingPots: Tout Marmite
+      Tombstones: Tout Pierre tombale
+      EvilAltars: Tout Autel démoniaque
+      CopperOres: Tout Minerai de cuivre
+      IronOres: Tout Minerai de fer
+      SilverOres: Tout Minerai d'argent
+      GoldOres: Tout Minerai d'or
+      EvilOres: Tout Minerai démoniaque
+      CobaltOres: Tout Minerai de cobalt
+      MythrilOres: Tout Minerai de mithril
+      AdamantiteOres: Tout Minerai d'adamantite
+      CopperBars: Tout Lingot de cuivre
+      EvilBars: Tout Lingot démoniaque
+    }
+  }
+}

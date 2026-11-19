@@ -1,0 +1,26 @@
+Mods: {
+  RecipeGroups: {
+    GroupNames: {
+      IronAnvils: Beliebig Eisenamboss
+      MythrilAnvils: Beliebig Mithrilamboss
+      AdamantiteForges: Beliebig Adamantitschmiede
+      Tables: Beliebig Tisch
+      Chairs: Beliebig Stuhl
+      Workbenches: Beliebig Werkbank
+      Sinks: Beliebig Waschbecken
+      CookingPots: Beliebig Kochtopf
+      Tombstones: Beliebig Grab
+      EvilAltars: Beliebig Dämonenaltar
+      CopperOres: Beliebig Kupfererz
+      IronOres: Beliebig Eisenerz
+      SilverOres: Beliebig Silbererz
+      GoldOres: Beliebig Golderz
+      EvilOres: Beliebig Dämoniterz
+      CobaltOres: Beliebig Cobalterz
+      MythrilOres: Beliebig Mithrilerz
+      AdamantiteOres: Beliebig Adamantiterz
+      CopperBars: Beliebig Kupferbarren
+      EvilBars: Beliebig Dämonitbarren
+    }
+  }
+}

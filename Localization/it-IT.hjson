@@ -1,0 +1,26 @@
+Mods: {
+  RecipeGroups: {
+    GroupNames: {
+      IronAnvils: Qualsiasi Incudine di ferro
+      MythrilAnvils: Qualsiasi Incudine di mitrilio
+      AdamantiteForges: Qualsiasi Forgia di adamantio
+      Tables: Qualsiasi Tavolo
+      Chairs: Qualsiasi Sedia
+      Workbenches: Qualsiasi Banco da lavoro
+      Sinks: Qualsiasi Lavabo
+      CookingPots: Qualsiasi Pentola
+      Tombstones: Qualsiasi Lapide
+      EvilAltars: Qualsiasi Altare dei demoni
+      CopperOres: Qualsiasi Minerale di rame
+      IronOres: Qualsiasi Minerale di ferro
+      SilverOres: Qualsiasi Minerale d'argento
+      GoldOres: Qualsiasi Minerale d'oro
+      EvilOres: Qualsiasi Minerale demoniaco
+      CobaltOres: Qualsiasi Minerale cobalto
+      MythrilOres: Qualsiasi Minerale mitrilio
+      AdamantiteOres: Qualsiasi Minerale adamantio
+      CopperBars: Qualsiasi Barra di rame
+      EvilBars: Qualsiasi Barra demoniaca
+    }
+  }
+}

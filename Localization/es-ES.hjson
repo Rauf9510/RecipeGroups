@@ -1,0 +1,26 @@
+Mods: {
+  RecipeGroups: {
+    GroupNames: {
+      IronAnvils: Cualquiera Yunque de hierro
+      MythrilAnvils: Cualquiera Yunque de mithril
+      AdamantiteForges: Cualquiera Forja de adamantita
+      Tables: Cualquiera Mesa
+      Chairs: Cualquiera Silla
+      Workbenches: Cualquiera Banco de trabajo
+      Sinks: Cualquiera Fregadero
+      CookingPots: Cualquiera Perol
+      Tombstones: Cualquiera Lápida
+      EvilAltars: Cualquiera Altar demoníaco
+      CopperOres: Cualquiera Mineral de cobre
+      IronOres: Cualquiera Mineral de hierro
+      SilverOres: Cualquiera Mineral de plata
+      GoldOres: Cualquiera Mineral de oro
+      EvilOres: Cualquiera Mineral endemoniado
+      CobaltOres: Cualquiera Mineral de cobalto
+      MythrilOres: Cualquiera Mineral de mithril
+      AdamantiteOres: Cualquiera Mineral de adamantita
+      CopperBars: Cualquiera Lingote de cobre
+      EvilBars: Cualquiera Lingote endemoniado
+    }
+  }
+}
