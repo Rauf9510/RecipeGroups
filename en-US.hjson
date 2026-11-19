@@ -1,0 +1,26 @@
+Mods: {
+  RecipeGroups: {
+    GroupNames: {
+      IronAnvils: Any Iron Anvil
+      MythrilAnvils: Any Mythril Anvil
+      AdamantiteForges: Any Adamantite Forge
+      Tables: Any Table
+      Chairs: Any Chair
+      Workbenches: Any Workbench
+      Sinks: Any Sink
+      CookingPots: Any Cooking Pot
+      Tombstones: Any Tombstone
+      EvilAltars: Any Evil Altar
+      CopperOres: Any Copper Ore
+      IronOres: Any Iron Ore
+      SilverOres: Any Silver Ore
+      GoldOres: Any Gold Ore
+      EvilOres: Any Evil Ore
+      CobaltOres: Any Cobalt Ore
+      MythrilOres: Any Mythril Ore
+      AdamantiteOres: Any Adamantite Ore
+      CopperBars: Any Copper Bar
+      EvilBars: Any Evil Bar
+    }
+  }
+}
