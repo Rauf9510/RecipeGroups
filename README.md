@@ -1,66 +1,116 @@
 # Recipe Groups
 
-**Recipe Groups** is a library for Terraria that provides ready-made item groups for use in recipes.
+<p align="center">
+  <img src="banner.png" alt="Recipe Groups Banner">
+</p>
 
-The mod allows developers to create recipes that accept any item from a corresponding group instead of requiring one specific item. This simplifies recipe creation and eliminates the need to create duplicate recipes for alternative items.
-
-## Features
-
-- **Item groups:** ready-made groups of alternative items for use in recipes.
-- **Crafting stations:** groups for tables, workbenches, anvils, sinks, and other crafting stations.
-- **Furniture:** groups for chairs and other furniture items.
-- **Ores and bars:** groups for ores and bars, including their alternative variants.
-- **Localization:** support for all Terraria languages in group names.
-- **Simplified development:** use ready-made groups instead of creating similar solutions yourself.
-
-## Usage
-
-This library is primarily intended for mod developers. Other mods can use the groups provided by Recipe Groups in their recipes, allowing players to use alternative items without changing the recipe itself.
-
-### Usage example
-
-To add an item group to a recipe, use the `AddRecipeGroup()` method in the recipe creation chain.
-
-For example, the following code creates a recipe that requires either an Iron Anvil or a Lead Anvil, along with 10 Wood:
-
-```cs
-public override void AddRecipes()
-{
-  CreateRecipe()
-    .AddIngredient(ItemID.Wood, 10)
-    .AddRecipeGroup("RecipeGroups:IronAnvils")
-    .Register();
-}
-```
-
-In this example:
-
-- `AddIngredient()` adds 10 Wood as a regular ingredient.
-- `AddRecipeGroup()` adds the Iron Anvils group, allowing either item in that group to be used.
-- `Register()` completes and registers the recipe.
-
-Therefore, the recipe requires 10 Wood and one of the anvils included in the `RecipeGroups:IronAnvils` group (an Iron Anvil or a Lead Anvil).
-
-### Other group examples
-
-```cs
-.AddRecipeGroup("RecipeGroups:Chairs")
-.AddRecipeGroup("RecipeGroups:Workbenches")
-.AddRecipeGroup("RecipeGroups:CopperBars")
-.AddRecipeGroup("RecipeGroups:IronOres")
-.AddRecipeGroup("RecipeGroups:Sinks")
-```
-
-The complete list of available groups can be found in the Recipe Groups source code.
-
-## Note
-
-Terraria already includes some built-in item groups, such as `IronBar` and `Wood`. Recipe Groups supplements these with its own groups that are not available among the built-in ones.
-
-## Compatibility
-
-Recipe Groups is designed for Bunny-Loader and is intended to be used as a library by other mods.
+<p align="center">
+  A recipe group library for Terraria mod developers.
+</p>
 
 ---
 
-**Recipe Groups** provides a collection of ready-made item groups that simplifies recipe development.
+## Overview
+
+**Recipe Groups** is a library mod for Terraria that provides ready-to-use groups of alternative items for crafting recipes.
+
+In Terraria, certain items serve the same purpose but have different variants. For example, several types of crafting stations, furniture, ores, and bars can be used interchangeably.
+
+Instead of creating separate recipes for every alternative item, Recipe Groups allows mod developers to use a single recipe group that accepts any registered item belonging to that group.
+
+This makes recipe definitions cleaner, reduces unnecessary duplication, and makes recipes more flexible.
+
+## Features
+
+- **Ready-to-Use Groups:** A collection of predefined groups covering various item categories.
+- **Alternative Ingredients:** Allow recipes to accept different items that serve the same purpose.
+- **Simplified Recipe Creation:** Reduce the need to create multiple recipes for alternative ingredients.
+- **Developer-Friendly:** Designed as a library for integration with other mods.
+- **Multilingual Support:** Localized group names in seven languages.
+
+## Available Groups
+
+Recipe Groups currently provides 20 predefined recipe groups across several item categories.
+
+### Crafting Stations & Furniture
+
+- `IronAnvils`
+- `MythrilAnvils`
+- `AdamantiteForges`
+- `Tables`
+- `Chairs`
+- `Workbenches`
+- `Sinks`
+- `CookingPots`
+- `Tombstones`
+- `EvilAltars`
+
+### Ores
+
+- `CopperOres`
+- `IronOres`
+- `SilverOres`
+- `GoldOres`
+- `EvilOres`
+- `CobaltOres`
+- `MythrilOres`
+- `AdamantiteOres`
+
+### Bars
+
+- `CopperBars`
+- `EvilBars`
+
+Each group allows recipes to accept alternative items belonging to the corresponding category.
+
+## For Developers
+
+Recipe Groups is intended to be used as a library dependency by other Terraria mods.
+
+It provides predefined recipe groups that developers can reference when registering their own recipes.
+
+Using these groups helps avoid unnecessary recipe duplication and makes crafting requirements more consistent across different mods.
+
+The library is designed to make it easier for mod developers to support alternative Terraria items without having to register and maintain the same groups themselves.
+
+## Localization
+
+Recipe Groups supports seven languages:
+
+| Language | Locale |
+|---|---|
+| 🇺🇸 English | `en-US` |
+| 🇩🇪 Deutsch | `de-DE` |
+| 🇮🇹 Italiano | `it-IT` |
+| 🇫🇷 Français | `fr-FR` |
+| 🇪🇸 Español | `es-ES` |
+| 🇷🇺 Русский | `ru-RU` |
+| 🇧🇷 Português brasileiro | `pt-BR` |
+
+Group names are localized to make the library accessible to developers and players using different game languages.
+
+## Download
+
+You can find the latest available version of Recipe Groups in the [Releases](../../releases) section.
+
+Each release contains the corresponding compiled mod package.
+
+## Compatibility
+
+Recipe Groups is developed for Terraria using Bunny-Loader.
+
+Make sure to use a version compatible with your Bunny-Loader installation.
+
+## License
+
+Recipe Groups is distributed under the **MIT License**.
+
+You are free to use, modify, and distribute this project in accordance with the license terms.
+
+See the [LICENSE](license.md) file for the full license text.
+
+---
+
+<p align="center">
+  Made for the Terraria modding community.
+</p>
