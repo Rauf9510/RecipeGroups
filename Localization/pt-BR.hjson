@@ -1,26 +1,11 @@
 Mods: {
   RecipeGroups: {
+    AnyFormat: "Qualquer {0}"
     GroupNames: {
-      IronAnvils: Qualquer Bigorna de Ferro
-      MythrilAnvils: Qualquer Bigorna de Mithril
-      AdamantiteForges: Qualquer Forja de Adamantina
       Tables: Qualquer Mesa
       Chairs: Qualquer Cadeira
       Workbenches: Qualquer Bancada
       Sinks: Qualquer Pia
-      CookingPots: Qualquer Panela
-      Tombstones: Qualquer Lápide
-      EvilAltars: Qualquer Altar Demoníaco
-      CopperOres: Qualquer Minério de Cobre
-      IronOres: Qualquer Minério de Ferro
-      SilverOres: Qualquer Minério de Prata
-      GoldOres: Qualquer Minério de Ouro
-      EvilOres: Qualquer Minério de Demonita
-      CobaltOres: Qualquer Minério de Cobalto
-      MythrilOres: Qualquer Minério de Mithril
-      AdamantiteOres: Qualquer Minério de Adamantina
-      CopperBars: Qualquer Barra de Cobre
-      EvilBars: Qualquer Barra de Demonita
     }
   }
 }
