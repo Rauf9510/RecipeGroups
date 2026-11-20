@@ -13,21 +13,24 @@ public class RecipeGroupsSystem : ModSystem
   {
     RecipeGroup.Register( //IronAnvils
       "RecipeGroups:IronAnvils",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.IronAnvils"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.IronAnvil)),
       ItemID.IronAnvil,
       ItemID.LeadAnvil
     );
 
     RecipeGroup.Register( //MythrilAnvils
       "RecipeGroups:MythrilAnvils",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.MythrilAnvils"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.MythrilAnvil)),
       ItemID.MythrilAnvil,
       ItemID.OrichalcumAnvil
     );
 
     RecipeGroup.Register( //AdamantiteForges
       "RecipeGroups:AdamantiteForges",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.AdamantiteForges"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.AdamantiteForge)),
       ItemID.AdamantiteForge,
       ItemID.TitaniumForge
     );
@@ -320,14 +323,16 @@ public class RecipeGroupsSystem : ModSystem
 
     RecipeGroup.Register( //CookingPots
       "RecipeGroups:CookingPots",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.CookingPots"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.CookingPot)),
       ItemID.CookingPot,
       ItemID.Cauldron
     );
 
     RecipeGroup.Register( //Tombstones
       "RecipeGroups:Tombstones",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.Tombstones"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.Tombstone)),
       ItemID.Tombstone,
       ItemID.Obelisk,
       ItemID.Headstone,
@@ -343,14 +348,16 @@ public class RecipeGroupsSystem : ModSystem
 
     RecipeGroup.Register( //EvilAltars
       "RecipeGroups:EvilAltars",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.EvilAltars"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.DemonAltar)),
       ItemID.DemonAltar,
       ItemID.CrimsonAltar
     );
 
     RecipeGroup.Register( //CopperOres
       "RecipeGroups:CopperOres",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.CopperOres"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.CopperOre)),
       ItemID.CopperOre,
       ItemID.TinOre
     );
@@ -364,56 +371,64 @@ public class RecipeGroupsSystem : ModSystem
 
     RecipeGroup.Register( //SilverOres
       "RecipeGroups:SilverOres",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.SilverOres"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.SilverOre)),
       ItemID.SilverOre,
       ItemID.TungstenOre
     );
 
     RecipeGroup.Register( //GoldOres
       "RecipeGroups:GoldOres",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.GoldOres"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.GoldOre)),
       ItemID.GoldOre,
       ItemID.PlatinumOre
     );
 
     RecipeGroup.Register( //EvilOres
       "RecipeGroups:EvilOres",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.EvilOres"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.DemoniteOre)),
       ItemID.DemoniteOre,
       ItemID.CrimtaneOre
     );
 
     RecipeGroup.Register( //CobaltOres
       "RecipeGroups:CobaltOres",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.CobaltOres"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.CobaltOre)),
       ItemID.CobaltOre,
       ItemID.PalladiumOre
     );
 
     RecipeGroup.Register( //MythrilOres
       "RecipeGroups:MythrilOres",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.MythrilOres"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.MythrilOre)),
       ItemID.MythrilOre,
       ItemID.OrichalcumOre
     );
 
     RecipeGroup.Register( //AdamantiteOres
       "RecipeGroups:AdamantiteOres",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.AdamantiteOres"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.AdamantiteOre)),
       ItemID.AdamantiteOre,
       ItemID.TitaniumOre
     );
 
     RecipeGroup.Register( //CopperBars
       "RecipeGroups:CopperBars",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.CopperBars"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.CopperBar)),
       ItemID.CopperBar,
       ItemID.TinBar
     );
 
     RecipeGroup.Register( //EvilBars
       "RecipeGroups:EvilBars",
-      () => Language.GetTextValue("Mods.RecipeGroups.GroupNames.EvilBars"),
+      () => Language.GetTextValue("Mods.RecipeGroups.AnyFormat",
+        Lang.GetItemNameValue(ItemID.DemoniteBar)),
       ItemID.DemoniteBar,
       ItemID.CrimtaneBar
     );
